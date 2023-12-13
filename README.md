@@ -122,4 +122,6 @@ Los resultados de las predicciones correspondientes los datos faltantes están e
 
 
 ## Conclusiones
+Es posible construir un modelo que permita predecir los parametros de salida en la columna de etiqueta para los datos faltantes. Se logró clasificar dichos datos usando el modelo random forest. Es importante mencionar que inicialmente se intentó crear un modelo de regresión logística pero el nivel de precisión máximo fue de aproximadamente 50%, por lo que no es optimo, ya que cometería la mitad de errores al hacer las predicciones.
+Con el modelo random forest los resultados con el grupo de datos clasificados fue bastante bueno, por lo que es altamente probable que los datos predichos presenten un error muy pequeño en comparación a los reales.
 
