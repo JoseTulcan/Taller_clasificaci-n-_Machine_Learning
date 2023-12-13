@@ -2,7 +2,7 @@ etiqueta,id
 negativo,300001
 negativo,300002
 positivo,300003
-positivo,300004
+negativo,300004
 positivo,300005
 positivo,300006
 negativo,300007
@@ -21,13 +21,13 @@ negativo,300019
 negativo,300020
 positivo,300021
 positivo,300022
-positivo,300023
+negativo,300023
 negativo,300024
 negativo,300025
 positivo,300026
 negativo,300027
 positivo,300028
-negativo,300029
+positivo,300029
 negativo,300030
 negativo,300031
 positivo,300032
@@ -53,7 +53,7 @@ negativo,300051
 negativo,300052
 positivo,300053
 negativo,300054
-positivo,300055
+negativo,300055
 positivo,300056
 positivo,300057
 negativo,300058
@@ -79,7 +79,7 @@ positivo,300077
 positivo,300078
 positivo,300079
 negativo,300080
-negativo,300081
+positivo,300081
 negativo,300082
 negativo,300083
 negativo,300084
