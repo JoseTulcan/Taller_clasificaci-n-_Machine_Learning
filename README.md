@@ -112,16 +112,12 @@ erDiagram
 ```
 ### Construcción del modelo
 Se implementó un modelo de machine learning tipo random forest en Google Colab. Se hizo uso de código SQL para seleccionar los datos de interés y de acuerdo a las necesidades desde la base de datos. Se separarón los datos clasificados de los que se requiere predecir su clasificación(etiqueta), se entrenó y se probó el modelo con el primer grupo de datos(99% para entrenamiento y 1% para testeo) y se obtuvo el nivel de precisión de la predicción usando dos metricas diferentes. Este nivel de precisión se pudo realizar debido que al hacer las predicciones hay unos datos con los cuales comparar dichas predicciones, siendo estos datos de referencia el 1% de los datos del primer grupo mencionado anteriormente. 
-Una vez entrenado el modelo y sabiendo que el nivel de precisión dado por las metricas (accuracy , classification_report) era superior a 90% se consideró un modelo optimo, por lo que se realizó las predicciones para el segundo grupo de datos que estaban sin clasificar. Una vez se realizaron las predicciones se asigna los parametros de salida requeridos(postivo, negativo) y se guardan en un archivo csv. Todo este proceso se puede evidenciar, modificar y entender de manera más detallada en el archivo.
-
+Una vez entrenado el modelo y sabiendo que el nivel de precisión dado por las metricas (accuracy , classification_report) era superior a 90% se consideró un modelo optimo, por lo que se realizó las predicciones para el segundo grupo de datos que estaban sin clasificar. Una vez se realizaron las predicciones se asigna los parametros de salida requeridos(postivo, negativo) y se guardan en un archivo csv. Todo este proceso se puede evidenciar, modificar y entender de manera más detallada en el archivo siguiente.(Hacer clic en el enlace)
 [**Taller_Clasificacion_ML_AyC.ipynb**](./Taller_Clasificacion_ML_AyC.ipynb ) 
 
 ## Resultados
 El modelo final presentó un nivel de precisión de 91%. Debe tenerse en cuenta que usualmente se toman 80-20% de los datos para entrenamiento y test respectivamente, pero en este caso se realizó el modelo con 99-1% ya que fue así como se logró el mayor nivel de precisión. 
-Los resultados de las predicciones correspondientes los datos faltantes están en el 
-
-[**Taller_Clasificacion_ML_AyC.ipynb**](./notebooks/Taller_Clasificacion_ML_AyC.ipynb )
-
+Los resultados de las predicciones correspondientes los datos faltantes están en el siguiente archivo.(Hacer clic en el enlace)
 [**predicciones.csv**](./output/predicciones.csv) 
 
 
