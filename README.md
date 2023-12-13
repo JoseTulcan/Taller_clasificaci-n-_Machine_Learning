@@ -2,6 +2,9 @@
 
 Este es un taller donde se disponen datos en una base sqlite (.db) y se debe entrenar un modelo de machine learning para clasificar unos datos faltantes.
 
+
+[![Imagen representativa](img/satelite.png)](img/satelite.png)
+
 ## Objetivos
 -Explorar la base de datos [**datos_sensores.db**](./datos_sensores.db) 
 - Entrenar un modelo de machine learning que pueda clasificar los datos faltantes de la columna **etiqueta** de la tabla **clasificacion** de la base de datos.
