@@ -22,7 +22,7 @@ Estos satelites permiten trabajar con mediciones de diferentes muestras. Cada un
 
 Se requiere un modelo de machine learning que pueda clasificar los datos faltantes de la columna **etiqueta**.
 
-# Estructura de la base de datos
+## Estructura de la base de datos
 _______________________________________________________
 Nombre Tabla: **datos_basicos**
 
