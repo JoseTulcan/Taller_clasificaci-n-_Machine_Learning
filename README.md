@@ -120,7 +120,9 @@ Una vez entrenado el modelo y sabiendo que el nivel de precisión dado por las m
 El modelo final presentó un nivel de precisión de 91%. Debe tenerse en cuenta que usualmente se toman 80-20% de los datos para entrenamiento y test respectivamente, pero en este caso se realizó el modelo con 99-1% ya que fue así como se logró el mayor nivel de precisión. 
 Los resultados de las predicciones correspondientes los datos faltantes están en el 
 
-[**archivo predicciones.csv**](./archivo predicciones.csv) 
+[**Taller_Clasificacion_ML_AyC.ipynb**](./Taller_Clasificacion_ML_AyC.ipynb )
+
+[**predicciones.csv**](./predicciones.csv) 
 
 
 ## Conclusiones
