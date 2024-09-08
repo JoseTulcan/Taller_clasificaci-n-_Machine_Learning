@@ -1,10 +1,7 @@
-# Solución de Taller Práctico de Clasificación de Datos con Algoritmos de Machine Learning. Asignatura: Automatización y Control
+# Clasificación de Datos con Algoritmos de Machine Learning.
 
-## INTEGRANTES:
 
-### José Luis Mera Tulcán - Deyson Mauricio Laos S.
-
-Este es un taller donde se disponen datos en una base sqlite (.db) y se debe entrenar un modelo de machine learning para clasificar unos datos faltantes.
+Se cuenta con una base sqlite (.db) y se debe entrenar un modelo de machine learning para clasificar unos datos faltantes.
 
 
 [![Imagen representativa](img/satelite.jpg)](img/satelite.jpg)
